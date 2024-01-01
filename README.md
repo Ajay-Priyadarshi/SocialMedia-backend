@@ -52,3 +52,9 @@ npm install
 ```env
 npm start
 ```
+The application should now be running on ```http://localhost:5000```.
+
+**Access the Application**
+
+Open your web browser and go to ```http://localhost:5000``` to access the SocialMedia application.
+
