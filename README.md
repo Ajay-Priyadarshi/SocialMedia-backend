@@ -1,6 +1,4 @@
-# SocialMedia-backend
-
-This is a simple SocialMedia application built with the MERN stack (MongoDB, Express.js, Node.js). It allows users to sign up, log in, create blogs, and perform basic CRUD operations on blogs.
+**This is a simple SocialMedia application built with the MERN stack (MongoDB, Express.js, Node.js). It allows users to sign up, log in, create blogs, and perform basic CRUD operations on blogs.**
 
 **Overview**
 
@@ -19,6 +17,25 @@ The application utilizes MongoDB as its database solution. MongoDB is a scalable
 **MongoDB Connection String**
 
 Ensure that you have MongoDB installed locally or provide a connection string to a MongoDB Atlas cluster.
+
+**Usage**
+
+**API Endpoints**
+
+- `/api/user`
+  - `GET /` - Get all users
+  - `POST /signup` - Create a new user (Sign up)
+  - `POST /login` - User login
+
+- `/api/blog`
+  - `GET /` - Get all blogs
+  - `POST /add` - Add a new blog
+  - `PUT /update/:id` - Update a blog by ID
+  - `GET /:id` - Get a blog by ID
+  - `DELETE /delete/:id` - Delete a blog by ID
+  - `GET /user/:id` - Get blogs by user ID
+
+**MongoDB Connection**
 
 Create a `.env` file in the root directory and add the following:
 
