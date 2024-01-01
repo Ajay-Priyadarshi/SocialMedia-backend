@@ -22,5 +22,5 @@ Ensure that you have MongoDB installed locally or provide a connection string to
 
 Create a `.env` file in the root directory and add the following:
 
-```env
-MONGO_URI=your_mongodb_connection_string
+`env`
+`MONGO_URI=your_mongodb_connection_string`
