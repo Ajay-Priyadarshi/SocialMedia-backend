@@ -41,6 +41,14 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
+```
+**Install Dependencies :**
+```env
 cd SocialMedia
 npm install
+```
+
+**Start Sever :**
+```env
 npm start
+```
