@@ -8,7 +8,7 @@ aap.use(express.json());
 aap.use("/api/user", router);
 aap.use("/api/blog", blogRoute)
 
-mongoose.connect("mongodb+srv://admin:jugrq6sRvV07oVJ4@blog.yiv32q0.mongodb.net/blog?retryWrites=true&w=majority").then(()=>{
+mongoose.connect("mongodb+srv://<username>:<password>@blog.yiv32q0.mongodb.net/<database>?retryWrites=true&w=majority").then(()=>{
     console.log("mongodb connected")
 })
 
