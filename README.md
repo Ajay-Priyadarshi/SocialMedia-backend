@@ -1,4 +1,4 @@
-# SocialMedia Application
+# SocialMedia Backend
 
 **This is a simple SocialMedia application built with the MERN stack (MongoDB, Express.js, Node.js). It allows users to sign up, log in, create blogs, and perform basic CRUD operations on blogs.**
 
